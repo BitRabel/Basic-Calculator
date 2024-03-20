@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img1.avif);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+}
+
+#n1,#n2{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 8px;
+    background-color: rgba(18, 106, 239, 0.192);
+    /* box-shadow: 1px 1px 5px rgb(244, 240, 240); */
+    outline: none;
+    border: 2px solid rgb(242, 11, 11);
+    color: rgb(142, 26, 26);
+}
+
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+#add,#sub{
+    height: 50px;
+    width: 70px;
+    margin: 10px;
+    background-color: black;
+    color: rgb(14, 204, 71);
+    font-size: larger;
+    background-color: rgba(27, 29, 32, 0.192);
+    box-shadow: 1px 1px 5px rgb(244, 240, 240);
+
+    
+}
+
+#mul,#divi{
+    height: 50px;
+    width: 70px;
+    margin: 10px;
+    background-color: black;
+    color: rgb(215, 48, 48);
+    font-size: larger;
+    background-color: rgba(27, 29, 32, 0.192);
+    box-shadow: 1px 1px 5px rgb(195, 14, 14);
+}
+
+.main{
+    height: 600px;
+    width: 500px;
+    border: 2px solid black;
+    margin: auto;
+    padding-top: 30px;
+    background-color: rgba(24, 89, 188, 0.192);
+    box-shadow: 1px 1px 5px rgb(201, 11, 11);
+   
+}
+
+.output{
+    font-size: larger;
+    color: rgb(206, 26, 26);
+    margin-top: 10px;  
+}
+
+
+
+
+
+
+
